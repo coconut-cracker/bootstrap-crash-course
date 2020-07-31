@@ -3,7 +3,200 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Les Fousseaux | Charming French Farmhouse in the Dordogne</title>
+
+    <style>
+      /* [class*="col"] {
+        padding: 1rem;
+        background-color: #33b5e5;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+      } */
+      /* [class*="con"] {
+        padding: 1rem;
+        background-color: #9e33e5;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+      } */
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container-md">
+      <div class="row">
+        <div class="col-sm">1</div>
+        <div class="col-sm">2</div>
+        <div class="col-sm">3</div>
+      </div>
+      <div class="row">
+        <div class="col-sm">4</div>
+        <div class="col-sm">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">Main content</div>
+        <div class="col-md-4">Sidebar</div>
+      </div>
+    </div>
+
+    <h2>Gutter</h2>
+
+    <div class="container px-4">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="p-3 border">Custom column padding</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border">Custom column padding</div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Components</h2>
+    <div class="container">
+      <h3>Buttons</h3>
+
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+
+      <button type="button" class="btn btn-link">Link</button>
+
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-secondary btn-lg">
+        Large button
+      </button>
+
+      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+      <button type="button" class="btn btn-secondary btn-sm">
+        Small button
+      </button>
+
+      <button type="button" class="btn btn-primary btn-lg btn-block">
+        Block level button
+      </button>
+      <button type="button" class="btn btn-secondary btn-lg btn-block">
+        Block level button
+      </button>
+
+      <a
+        href="#"
+        class="btn btn-primary btn-lg active"
+        role="button"
+        aria-pressed="true"
+        >Primary link</a
+      >
+      <a
+        href="#"
+        class="btn btn-secondary btn-lg active"
+        role="button"
+        aria-pressed="true"
+        >Link</a
+      >
+
+      <button type="button" class="btn btn-lg btn-primary" disabled>
+        Primary button
+      </button>
+      <button type="button" class="btn btn-secondary btn-lg" disabled>
+        Button
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="button"
+        aria-pressed="false"
+        autocomplete="off"
+      >
+        Single toggle
+      </button>
+
+      <hr />
+
+      <h2>Cards</h2>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+          maiores, voluptate possimus impedit eos quo.
+        </div>
+      </div>
+
+      <h3>Card size controlled by bootstrap</h3>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              maiores, voluptate possimus impedit eos quo.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-3" style="width: 18rem; height: 500px;">
+        <img
+          class="card-img-top p-3"
+          style="width: 18rem; height: 300px;"
+          src="https://source.unsplash.com/random"
+          alt=""
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card Title</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+            molestias culpa sed iste ratione sint!
+          </p>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 700px;">
+        <div class="row g-0">
+          <div class="col-sm-4">
+            <img
+              class="img-fluid"
+              style="height: 200px;"
+              src="https://source.unsplash.com/random"
+              alt=""
+            />
+          </div>
+
+          <div class="col-sm-8">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tenetur molestias culpa sed iste ratione sint!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Las updated 6 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
 </html>
